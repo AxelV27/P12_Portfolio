@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100px;
+}
+
+h3{
+    color: white;
+}
+
+.item{
+    padding: 6px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
