@@ -1,0 +1,54 @@
+.card{
+    display: flex;
+}
+
+.card__figure{
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card__image{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.card__figure:hover .card__image{
+    transform: scale(1.4);
+    filter: blur(5px);
+}
+
+.card__figure:hover .card__title{
+    opacity: 1;
+}
+
+.card__title {
+    opacity: 0;
+    border-radius: 5px;
+    background: rgba(219, 217, 217, 0.568);
+    padding: 20px;
+    position: relative;
+    color: rgb(61, 59, 59);
+    bottom: 100px;
+    left: 0px;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.projets{
+    background:linear-gradient(270deg,#fff 0, #f7f7f7 80%);
+    padding: 48px;
+}
+
+.projets__liste{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

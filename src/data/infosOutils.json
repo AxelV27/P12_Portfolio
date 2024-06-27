@@ -1,0 +1,25 @@
+[
+    {
+        "id":"1",
+        "title":"Git",
+        "cover": "/assets/logo/git-icon.webp"
+
+    },
+    {
+        "id":"2",
+        "title":"GitHub",
+        "cover":"/assets/logo/GitHub-icon.png"
+
+    },
+    {
+        "id":"3",
+        "title":"Sass",
+        "cover": "/assets/logo/icon-sass.png"
+    },
+    {
+        "id":"4",
+        "title":"React",
+        "cover":"/assets/logo/icon-React.png"
+    }
+    
+]

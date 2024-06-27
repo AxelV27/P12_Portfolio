@@ -1,0 +1,17 @@
+.outils{
+    background:linear-gradient(270deg,#fff 0, #f7f7f7 80%);
+    padding: 48px;
+}
+
+.outils-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.outils-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+

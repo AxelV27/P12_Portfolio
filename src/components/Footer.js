@@ -16,7 +16,7 @@ export default function Footer(){
     }
     return(
         <footer className="footer">
-            <h3>© 2024 Axel Verdasca</h3>
+            <h4>© 2024 Axel Verdasca</h4>
                <div className="icon">
                 <i className="item" onClick={MyGitHub}>{github}</i>
                 <i className="item" onClick={MyLinkedin}>{linkedin}</i>
