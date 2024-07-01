@@ -3,21 +3,42 @@
         "id":"1",
         "title":"Agence de voyage Booki",
         "cover": "/assets/logo/Booki.png",
-        "description":"Il s'agit du premier gros projet que j'ai du effectuer, il m'a permis de voir les bases de l'HTML et du CSS. La mission était d'intégré le site de l'agence de voyage Booki.",
-        "compétences": "Cela m'a permis de travailler sur les diffentes fonctions de CSS tel que les grids",
-        "liens": "https://axelv27.github.io/P3-Booki/"
+        "description":"Il s'agit du premier gros projet que j'ai du effectuer, il m'a permis de voir les bases de l'HTML, avec les balises sémantiques, et du CSS tel que le display grid. La mission était d'intégrer le site de l'agence de voyage Booki pour que les utilisateurs puissent trouver un hébergement et/ou une activité sur Marseille.",
+        "compétences": [
+                "Front-end",
+                "HTML",
+                "CSS",
+                "Responsive"
+        ],
+        "liens": "https://axelv27.github.io/P3-Booki/",
+        "pictures": "/assets/images/Grid-Booki.jpg"
 
     },
     {
         "id":"2",
         "title":"Sophie Bluel",
-        "cover":"/assets/images/sophie-bluel.png"
+        "cover":"/assets/images/sophie-bluel.png",
+        "description":"Il s'agit du premier gros projet qui m'a fait découvrir Javascript ainsi les appels d'une API. La mission consistait a pouvoir filtrer les photos de Sophie Bluel mais aussi de pouvoir en ajouter et/ou en supprimer.",
+        "compétences":[
+            "Front-end",
+            "Javascript",
+            "HTML",
+            "CSS",
+            "API"
+        ]
 
     },
     {
         "id":"3",
         "title":"Agence de location Kasa",
-        "cover": ""
+        "cover": "",
+        "description": "Il s'agit du premier projet React qui m'a fait découvrir les avantages de cet outil grâce aux composants réutilisable qui facilite l'actualisation du site en cas de besoin",
+        "compétences":[
+            "Front-end",
+            "React",
+            "Javascript",
+            "CSS"
+        ]
     }
     
 ]

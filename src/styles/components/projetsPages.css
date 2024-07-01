@@ -1,0 +1,44 @@
+.projet__page__title{
+    display: flex;
+    justify-content: center;
+}
+
+.projet__page__content{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.projet__page__description{
+    margin-left: 40px;
+}
+
+.projet__page__img img{
+    width: 100%;
+}
+
+.projet__page__competences{
+    display: flex;
+    margin: 16px 0;
+}
+
+.projet__page__competences ul{
+    display: flex;
+    background-color: rgb(252, 78, 78);
+    border-radius: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 24px;
+    border: solid 2px black;
+    margin-left: 10px;
+    margin-top: 0;
+    width: max-content;
+}
+.projet__page__competences ul:hover{
+    background-color: black;
+    border: solid 2px rgb(252, 78, 78);
+}
+
+.projet__page__competences li{
+    display: flex;
+}

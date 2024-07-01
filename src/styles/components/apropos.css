@@ -15,9 +15,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: sans-serif;
+    
 }
 
 .presentation-description{
     width: 50%;
+    font-family: Roboto sans-serif;
 }
