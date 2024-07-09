@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: cursive;
     font-size: 25px;
     margin-top: 50px;
 }
@@ -20,5 +20,16 @@
 
 .presentation-description{
     width: 50%;
-    font-family: Roboto sans-serif;
+    text-align: justify;
+}
+
+@media(max-width : 768px) {
+    .presentation-content{
+        flex-direction: column;
+    }
+
+    .presentation-description{
+        width: 100%;
+    }
+    
 }

@@ -15,3 +15,14 @@
     gap: 10px;
 }
 
+@media(max-width : 540px) {
+    .outils{
+        padding: 0;
+    
+    }
+    .outils-content{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+}

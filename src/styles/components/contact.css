@@ -6,6 +6,10 @@
     flex-direction: column;
 }
 
+.contact-text{
+    font-size: x-large;
+}
+
 .boutton-email{
     background: transparent;
     border: none;
@@ -51,4 +55,13 @@
 
 .boutton-email:hover .boutton-back{
     transform: rotate(-2deg);
+}
+
+
+@media(max-width : 758px) {
+    .contact-text{
+        font-size: large;
+        text-align: center;
+    }
+    
 }

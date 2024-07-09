@@ -9,6 +9,7 @@
     transition: box-shadow .4s;
 }
 
+
 .header .stickied{
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
 }
@@ -20,6 +21,10 @@
     gap: 10px;
     text-decoration: none;
     color: black;
+}
+
+.header-logo{
+    font-family: fantasy;
 }
 
 .header-nav{
@@ -38,7 +43,7 @@
     padding: 6px 20px;
     transition: 0.5s;
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .header-nav a span{
@@ -59,3 +64,17 @@
     transform: scale(1) translateY(0);
     opacity: 1;
 }
+
+.header-icon{
+    font-size: xx-large;
+}
+@media(max-width : 768px) {
+    .header{
+        flex-direction: column;
+    }
+
+    .header-nav{
+        justify-content: space-around;
+    }
+}
+

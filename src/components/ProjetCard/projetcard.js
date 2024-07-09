@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function CardProjet ({id, title, cover}){
     return(
-    <li key={id} className="card">
+    <div key={id} className="card">
         <Link to={'/P12_Porfolio/Projet/' + id} >
         <figure className="card__figure">
                 <img src= {process.env.PUBLIC_URL+cover} alt = {title} className="card__image"/>
@@ -12,6 +12,6 @@ export default function CardProjet ({id, title, cover}){
                 </figcaption>
             </figure>
         </Link>
-    </li>
+    </div>
     )
 }

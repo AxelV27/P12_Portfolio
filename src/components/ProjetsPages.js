@@ -14,15 +14,20 @@ export default function ProjetPage(){
       <p className='projet__page__description'>{projet.description}</p>
       <div className='projet__page__img'>
         <img src={process.env.PUBLIC_URL+projet.pictures} alt='screen'></img>
-        <div className='projet__page__competences'>{projet.compétences.map((compétences, i) =>
+        <img src={process.env.PUBLIC_URL+projet.responsive} alt='screen-tel'></img>      
+      </div>
+     </div> 
+     <div className='projet__page__competences'>{projet.compétences.map((compétences, i) =>
           <ul key={i}>
             <li>{compétences}</li>
           </ul>
         )}</div>
-      </div>
-      </div>
       <div className='projet__page__liens'>
-        Vous pouvez accéder au site Booki juste <a href={projet.liens}> ici</a> 
+        Vous pouvez accéder au site Booki juste ici : 
+        <button>
+        <a href={projet.liens} className='boutton-text'> Accès au site</a>
+        <span className='boutton-back'></span>
+        </button>
       </div>
     </div>
     </>

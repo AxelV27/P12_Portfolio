@@ -7,11 +7,11 @@ import "../../styles/components/competences.css"
 
 const Skills = () => {
   return (
-    <div className='competences'>
+    <section className='competences'>
       <h2>Mes compétences</h2>
       <LangageList/>
       <OutilsList/>
-    </div>
+    </section>
   );
 };
 

@@ -9,7 +9,7 @@ export default function HeaderProjet(){
     return(
         <nav className="header">
         <Link to="/P12_Portfolio">
-        <i className="header__icon">{prev}</i>
+        <i className="header-icon">{prev}</i>
         </Link>
         </nav>
     )

@@ -14,3 +14,21 @@
     align-items: center;
     gap: 10px
 }
+
+@media(max-width : 540px) {
+    h3{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .langage{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .langage-content{
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+}

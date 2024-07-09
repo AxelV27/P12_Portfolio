@@ -7,7 +7,7 @@ import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 export default function Header(){
     const Laptop = <FontAwesomeIcon icon={faLaptopCode}/>
     return(
-        <nav className="header">
+        <header className="header">
             <Link to="/P12_Portfolio">
             <i className="header-icon">{Laptop}</i>
             <h1 className="header-logo">Axel Verdasca</h1>
@@ -16,6 +16,6 @@ export default function Header(){
                 <a href="#presentation">À propos<span></span></a>
                 <a href="#projets" >Projets<span></span></a>
             </nav>
-        </nav>
+        </header>
     )
 }

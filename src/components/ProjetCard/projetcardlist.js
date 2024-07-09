@@ -6,7 +6,7 @@ import "../../styles/components/projetcard.css"
 export default function ProjetsListes (){
     return (
         <section className="projets">
-            <ul className="projets__liste">
+            <div className="projets__liste">
                 {ProjetInfos.map(({id, title, cover}) =>(
                     <CardProjet 
                         key={id}
@@ -15,7 +15,7 @@ export default function ProjetsListes (){
                         cover={cover}
                     />
                 ))}
-            </ul>
+            </div>
         </section>
     )
 
