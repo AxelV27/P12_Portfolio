@@ -48,7 +48,7 @@
         "id":"4",
         "title":"Agence de location Kasa",
         "cover": "/assets/logo/Kasa.jpeg",
-        "description": "Il s'agit du premier projet React qui m'a fait découvrir les avantages de cet outil grâce aux composants réutilisable qui facilite l'actualisation du site en cas de besoin",
+        "description": "Il s'agit du premier projet React qui m'a fait découvrir les avantages de cet outil grâce aux composants réutilisable qui facilite l'actualisation du site en cas de besoin. J'ai aussi utiliser React Router qui permet la navigation à l'intérieur du site pour le rendre plus dynamique. Ici les données étaient fournis dans un fichier JSON, qui m'a servit de base pour pouvoir faire mes composants et les remplir.",
         "compétences":[
             "Front-end",
             "React",

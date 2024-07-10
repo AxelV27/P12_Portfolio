@@ -23,6 +23,11 @@
     text-align: justify;
 }
 
+.presentation-description a{
+    font-weight: bold;
+    color: black;
+}
+
 @media(max-width : 768px) {
     .presentation-content{
         flex-direction: column;
