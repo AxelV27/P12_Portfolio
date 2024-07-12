@@ -2,7 +2,7 @@
     {
         "id":"1",
         "title":"Agence de voyage Booki",
-        "cover": "/assets/logo/Booki.png",
+        "cover": "/assets/logo/Booki.webp",
         "description":"Il s'agit du premier gros projet que j'ai du effectuer, il m'a permis de voir les bases de l'HTML, avec les balises sémantiques, et du CSS avec plusieurs règles tel que le display qui permet de contrôler, la visibilité, le positionnement des élément et autres à l'écran. La mission était d'intégrer le site de l'agence de voyage Booki pour que les utilisateurs puissent trouver un hébergement et/ou une activité sur Marseille. Une maquette Figma nous a été fourni pour intégrer ce site, ce qui m'a permis de découvrir un peu de cet outil.",
         "compétences": [
                 "Front-end",
@@ -11,14 +11,14 @@
                 "Responsive"
         ],
         "liens": "https://axelv27.github.io/P3-Booki/",
-        "pictures": "/assets/images/Grid-Booki.jpg",
-        "responsive": "/assets/images/Booki-tel.png"
+        "pictures": "/assets/images/Grid-Booki.webp",
+        "responsive": "/assets/images/Booki-tel.webp"
 
     },
     {
         "id":"2",
         "title":"Ohmyfood",
-        "cover":"/assets/logo/Ohmyfood.jpeg",
+        "cover":"/assets/logo/Ohmyfood.webp",
         "description":"Il s'agit d'un projet où l'accent a été mis sur les animations CSS. Ici le site Ohmyfood souhaitait intégrer son site internet mettant en avant des restaurants et leur menu. Il a été demandé aussi de faire des animations lors du passage de la souris sur le 'like' ainsi que sur un élément d'un menu.",
         "compétences":[
             "Front-end",
@@ -27,13 +27,13 @@
             "Animation"
         ],
         "liens":"https://axelv27.github.io/Ohmyfood/",
-        "pictures":"/assets/images/Ohmyfood-desktop.jpg",
-        "responsive":"/assets/images/Ohmyfood-tel.png"
+        "pictures":"/assets/images/Ohmyfood-desktop.webp",
+        "responsive":"/assets/images/Ohmyfood-tel.webp"
     },
     {
         "id":"3",
         "title":"Sophie Bluel",
-        "cover":"/assets/logo/Sophie_Bluel.jpeg",
+        "cover":"/assets/logo/Sophie_Bluel.webp",
         "description":"Il s'agit du premier gros projet qui m'a fait découvrir Javascript ainsi les appels d'une API en utilisant des 'fecth' et des fonctions asynchrones. La mission consistait a pouvoir filtrer les photos de Sophie Bluel mais aussi de pouvoir en ajouter et/ou en supprimer. Il a aussi été demander de créer un formulaire de connexion et en fonction que l'on soit connecté ou non, nous pouvons ajouter ou supprimer les photos.",
         "compétences":[
             "Front-end",
@@ -47,7 +47,7 @@
     {
         "id":"4",
         "title":"Agence de location Kasa",
-        "cover": "/assets/logo/Kasa.jpeg",
+        "cover": "/assets/logo/Kasa.webp",
         "description": "Il s'agit du premier projet React qui m'a fait découvrir les avantages de cet outil grâce aux composants réutilisable qui facilite l'actualisation du site en cas de besoin. J'ai aussi utiliser React Router qui permet la navigation à l'intérieur du site pour le rendre plus dynamique. Ici les données étaient fournis dans un fichier JSON, qui m'a servit de base pour pouvoir faire mes composants et les remplir.",
         "compétences":[
             "Front-end",
@@ -56,8 +56,8 @@
             "CSS"
         ],
         "liens":"https://axelv27.github.io/P8_Kasa",
-        "pictures":"/assets/images/Kasa-desktop.jpg",
-        "responsive":"/assets/images/Kasa-tel.png"
+        "pictures":"/assets/images/Kasa-desktop.webp",
+        "responsive":"/assets/images/Kasa-tel.webp"
     }
     
 ]

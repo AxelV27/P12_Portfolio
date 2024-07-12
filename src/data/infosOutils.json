@@ -8,13 +8,13 @@
     {
         "id":"2",
         "title":"GitHub",
-        "cover":"/assets/logo/GitHub-icon.png"
+        "cover":"/assets/logo/GitHub-icon.webp"
 
     },
     {
         "id":"3",
         "title":"Sass",
-        "cover": "/assets/logo/icon-sass.png"
+        "cover": "/assets/logo/icon-sass.webp"
     },
     {
         "id":"4",
