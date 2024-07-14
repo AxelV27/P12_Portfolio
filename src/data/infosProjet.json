@@ -41,7 +41,10 @@
             "HTML",
             "CSS",
             "API"
-        ]
+        ],
+        "pictures":"/assets/images/Sophie-Bluel-desktop.webp",
+        "responsive":"/assets/images/Sophie-Bluel-tel.webp",
+        "liens":"https://github.com/AxelV27/P6_Sophie-Bluel"
 
     },
     {
