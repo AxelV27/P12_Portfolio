@@ -6,6 +6,9 @@ import "../styles/components/projetsPages.css"
 export default function ProjetPage(){
   const {id} = useParams()
   const projet = ProjetInfos.find(projet => projet.id === id)
+  const ouvrirNouvelleFenetre = (lien) => {
+    window.open(lien, '_blank');
+  }
   return (
     <>
     <div key={projet.id} className='projet__page'>
@@ -24,8 +27,8 @@ export default function ProjetPage(){
         )}</div>
       <div className='projet__page__liens'>
         Vous pouvez accéder au site Booki juste ici : 
-        <button>
-        <a href={projet.liens} className='boutton-text'> Accès au site</a>
+        <button onClick={() => ouvrirNouvelleFenetre(projet.liens)}>
+        <span className='boutton-text'> Accès au site</span>
         <span className='boutton-back'></span>
         </button>
       </div>
